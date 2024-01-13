@@ -1,0 +1,12 @@
+{
+  "name": "kaakans.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Kaakans/kaakans.github.io.git",
+  "author": "Kaakans <jonathanboellke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.12.4",
+    "three": "^0.160.0"
+  }
+}

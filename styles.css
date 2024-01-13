@@ -4,22 +4,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3em;
-  font-family: 'Lato', sans-serif;
   height: 100vh;
   width: 100vw;
   background: rgb(47,131,226);
   background: linear-gradient(165deg, rgba(47,131,226,1) 0%, rgba(255,0,232,1) 100%);
   color: white;
-}
-
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
