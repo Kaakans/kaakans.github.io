@@ -12,7 +12,7 @@
   :root { font-family: InterVariable, sans-serif; }
 }
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
   background: rgb(47,131,226);
   background: linear-gradient(165deg, rgba(47,131,226,1) 0%, rgba(255,0,232,1) 100%);
   color: white;
-}
+} */
 
 h1 {
   font-size: 4em;
